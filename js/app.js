@@ -58,8 +58,8 @@ const App = {
 
 		li.innerHTML = `
 			<div class="view">
-				<input id="${todo.id}" class="toggle" type="checkbox" ${todo.completed ? 'checked' : ''}>
-				<label for="${todo.id}"></label>
+				<input class="toggle" type="checkbox" ${todo.completed ? 'checked' : ''}>
+				<label></label>
 				<button class="destroy"></button>
 			</div>
 			<input class="edit">
